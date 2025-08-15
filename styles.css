@@ -1,2 +1,7 @@
 
 /* Your CSS Code here. */
+.holder {
+  display: flex;                /* Makes the container a flexbox */
+  flex-wrap: wrap;              /* Allows items to move to the next row instead of shrinking */
+  justify-content: space-evenly;/* Distributes items evenly, including at the container’s edges */
+}
